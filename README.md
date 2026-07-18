@@ -8,7 +8,7 @@ qwen3.6 35b a3b q4:
 not really, manages to write and execute some code but has no long term planning / memory and often bricks itself and gets stuck in endless reasoning loops
 
 qwen3.6 27b q8:
-survives much longer, implements better tests, but is lazy and does not fully follow the system prompt, maybe too much context.
+survives much longer, implements better tests, has very interesting ideas, but is lazy and does not fully follow the system prompt, maybe too much context.
 in the end, it also often bricks its codebase, tries impressive workarounds but once its bricked something there is often no way to recover.
 
 Especially the restart tool seems to be hard, the first generation manages to reboot itself, but does not pass enough context to the second generation. 
