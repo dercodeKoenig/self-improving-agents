@@ -1,0 +1,9 @@
+TOOL_DEFINITION = {
+    "name": "my_tool",
+    "description": "What it does.",
+    "arguments": {"param": {"type": "string", "required": True}}
+}
+
+def execute(param):
+    # Implementation
+    return "result"

@@ -1,0 +1,8 @@
+{
+  "goal": "Continue recursive self-improvement loop. You are now running v3.0.0 of the autonomous AI agent. Your task: create v4/ with further improvements (better tool chaining, parallel execution support, improved error recovery, more sophisticated planning). Follow the same process: create new version folder, copy previous codebase, optimize, test thoroughly (28 unit tests + 10 live benchmarks must ALL pass), then reboot into v4 when ready.",
+  "model": "qwen3.6:27b-Q8_0",
+  "ollama_host": "87.171.205.7",
+  "ollama_port": 9090,
+  "max_history": 50,
+  "log_file_path": "/tmp/agent_log.json"
+}

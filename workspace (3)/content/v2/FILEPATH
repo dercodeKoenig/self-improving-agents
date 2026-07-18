@@ -1,0 +1,12 @@
+/tmp/bench_test5.py
+def fibonacci(n):
+    fib = [0, 1]
+    for i in range(2, n + 1):
+        fib.append(fib[i - 1] + fib[i - 2])
+    return fib[:n + 1]
+
+if __name__ == "__main__":
+    n = 10
+    result = fibonacci(n)
+    for i, val in enumerate(result):
+        print(f"fib({i}) = {val}")

@@ -1,0 +1,1 @@
+cd /content/v2 && python3 agent.py --test
