@@ -13,7 +13,7 @@ in the end, it also often bricks its codebase, tries impressive workarounds but 
 
 Especially the restart tool seems to be hard, the first generation manages to reboot itself, but does not pass enough context to the second generation. 
 sometimes it launches itself with invalid args and dies, 
-sometimes it launches with localhost as llm server and gets no response and loops without any way to recover
+sometimes it launches with localhost as llm server and gets no response and loops without any way to recover.
 sometimes it bricks the restart tool causing multiple agent processes to spawn.
 one time it just panic and killed itself by its process id.
 
