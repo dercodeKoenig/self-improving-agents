@@ -5,7 +5,7 @@ gemma4:31b q4:
 no, can not even write files correctly
 
 qwen3.6 35b a3b q4:
-not really, manages to write and execute some code but has no long term planning / memory and often bricks itself
+not really, manages to write and execute some code but has no long term planning / memory and often bricks itself and gets stuck in endless reasoning loops
 
 qwen3.6 27b q8:
 survives much longer, implements better tests, but is lazy and does not fully follow the system prompt, maybe too much context.
